@@ -135,8 +135,6 @@ export default function App() {
   const {
     register,
     handleSubmit,
-    watch,
-    formState: { errors }
   } = useForm();
   const onSubmit = (data) => console.log(data);
   const [choice, setChoice] = useState(" ");//Source City
